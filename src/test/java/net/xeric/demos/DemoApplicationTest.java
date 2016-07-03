@@ -12,10 +12,9 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = DemoApplication.class)
 @WebAppConfiguration
-public class DemoApplicationTests {
+public class DemoApplicationTest {
 
-	@Test
-	public void contextLoads() {
-	}
-
+  @Test
+  public void contextLoads() {
+  }
 }
